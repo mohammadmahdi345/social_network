@@ -1,0 +1,9 @@
+venv/
+
+.idea/
+**__pycatch__/
+media/
+*.pyc
+
+db.mysql
+local_settings.py
