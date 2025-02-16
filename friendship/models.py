@@ -12,6 +12,5 @@ class Friendship(models.Model):
 
     class Meta:
         verbose_name = 'Friendship'
-        verbose_name_plural  = 'Friendships'
         unique_together = ('request_from', 'request_to')
 
